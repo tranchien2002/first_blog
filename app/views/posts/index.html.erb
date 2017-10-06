@@ -1,0 +1,7 @@
+<h1>All posts</h1>
+
+<% @posts.each do |p| %>
+  <li>
+    <%= link_to p.content, p %>
+  </li>
+<% end %>
